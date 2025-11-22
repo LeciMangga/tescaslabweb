@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from schemas.tp import TPCreate, TPRead, TPUpdate,
+from schemas.tp import TPCreate, TPRead, TPUpdate
 from db.session import get_db
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
